@@ -1,0 +1,143 @@
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3EDE5;
+    /*background-color: rgb(255, 230, 255);*/
+}
+/* NAV */
+header{
+    padding: 6em;
+}
+
+.main-logo{
+    width: 10em;
+}
+
+.nav-items{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > li{
+    list-style-type: none;
+    padding: 1em 2em;
+    color: #6C6C6C;
+    font-size: 1em;
+}
+.products{
+    margin-left: 5%;
+}
+
+.sign-in{
+    margin-left: auto;
+}
+
+button{
+    padding: 1.3em;
+    background-color: #133416;
+    color: #ffffff;
+    border:none;
+    border-radius: 5px;
+    line-height: 0.5em;
+    font-size: 1.2em;
+}
+
+/* MAIN CONTENT */
+.main-content{
+    padding: 6em;
+    line-height: 1.5em;
+}
+
+.hero-image{
+    float:right;
+    height: 30em;
+    width: 25em;
+}
+
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 71px;
+    line-height: 84px;
+    color: black;
+}
+
+.icon{
+    padding-right: 0.7em;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 150%;
+    /* or 24px */
+    color: #6C6C6C;
+    padding: 1em 0 1em 0;
+    display: flex;
+}
+
+.yellow{
+    color: #F6B300;
+}
+
+.rating-logos > img{
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+    
+}
+
+/* FOOTER */
+footer{
+    padding: 1.5em 10.5em;
+}
+
+footer > p{
+    text-align: center;
+    justify-content: center;
+}
+
+footer > img{
+    padding-right: 3.5em;
+}
+
+/* PRODUCTS ASIDE */
+
+.show-hide{
+    display: none;
+}
+
+#pop-up{
+    height: 14.5em;
+    width: 25em;
+    flex-wrap: wrap;
+    border-radius: 0.8em;
+    background-color: white;
+    padding: 0.7em 0.4em 1.4em 1.4em;
+    z-index: 1;
+}
+
+
+h4{
+    display: flex;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.aside-text > p{
+    font-size: 0.7em;
+    margin: 0;
+    padding: 0 0 0 3em; 
+} 
+
+li:hover{
+    background-color: aliceblue;
+    display: block;
+}
+
+
